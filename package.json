@@ -1,0 +1,29 @@
+{
+  "name": "encode-price",
+  "version": "1.0.0",
+  "description": "Encode price using ROT18 encryption and a own crypto caeser definition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KelvinCampelo/encode-price.git"
+  },
+  "keywords": [
+    "encode",
+    "crypto",
+    "caesar",
+    "ROT18",
+    "price"
+  ],
+  "author": "Kelvin Campelo Alves de Sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KelvinCampelo/encode-price/issues"
+  },
+  "homepage": "https://github.com/KelvinCampelo/encode-price#readme",
+  "dependencies": {
+    "caesar-salad": "^1.0.1"
+  }
+}
