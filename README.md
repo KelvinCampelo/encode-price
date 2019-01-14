@@ -6,7 +6,7 @@ To install simple run:
 $ npm i encode-price #or yarn add encode-price
 ```
 
-To user is simple too
+To use is simple too
 
 ```javascript
 var encodePrice = require('encode-price')
