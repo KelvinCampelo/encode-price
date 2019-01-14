@@ -2,7 +2,9 @@
 
 To install simple run: 
 
-`npm i encode-price #or yarn add encode-price`
+```bash
+$ npm i encode-price #or yarn add encode-price
+```
 
 To user is simple too
 
@@ -10,10 +12,10 @@ To user is simple too
 var encodePrice = require('encode-price')
 
 //to encode
-var encoded = encodePrice.encode(99.99)
+var encoded = encodePrice.encode(99.99) //#44&44
 
 //to decode
-var decoded = encodePrice.decode(encoded)
+var decoded = encodePrice.decode(encoded) //99.99
 ```
 
 This lib was created for a simple task that the product owner needed to mask the price in Woocommerce Variation description.
